@@ -53,3 +53,33 @@
     [3,5,7|,8,2,9,4,15,6]
     [3,5,7,8|,2,9,4,15,6]
       
+ # Merge Sort
+
+    Merge sort of [16,21,11,8,12,22] 
+
+    [16,21,11,8,12,22]
+    [16,21,11] [8,12,22]
+    [16,21] [11] [8] [12,22]
+    [16] [21] [11] [8] [12] [22] 
+    [16,21] [11] [8] [12,22]
+    [11,16,21] [8,12,22]
+    [8,11,12,16,21,22]
+    
+## 2) Big-O
+
+    O(nlog(n))
+    
+ # Binary Search Tree
+## 1) [7,3,5,8,2,9,4,15,6] convert this array into a binary search tree and write the steps. 
+    - The root is 7 because it's at the beginning of the series.
+    - 5 is written to the left of 7 because it is less than 7.
+    - 1 is written to the left of 5 because it is less than 7 and 5.
+    - 8 is written to the right of 7 because it is greater than 7.
+    - 3 is written to the right of 1 because it is less than 7 and 5 but greater than 1.
+    - 6 is written to the right of 5 because it is less than 7 but greater than 5.
+    - 0 is written to the left of 1 because it is less than 7, 5 and 1.
+    - 9 is written to the right of 8 because it is greater than 7 and 8.
+    - 4 is written to the right of 3 because it is less than 7 and 5 but greater than 1 and 3.
+    - 2 is written to the left of 3 because it is less than 7, 5, 3 but greater than 1.
+
+![](binaryTree.PNG) 
